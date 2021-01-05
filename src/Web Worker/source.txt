@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/47475360/creating-a-web-worker-inside-react
+https://www.newline.co/fullstack-react/articles/introduction-to-web-workers-with-react/
+https://levelup.gitconnected.com/react-and-web-workers-c9b60b4b6ae8
+https://github.com/facebook/create-react-app/issues/1277
+https://codesandbox.io/s/w2v7zzn63w?file=/src/workerSetup.js
+https://www.youtube.com/watch?v=pMK-jcOAYI8
