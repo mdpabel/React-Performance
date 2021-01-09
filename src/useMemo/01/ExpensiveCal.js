@@ -5,6 +5,7 @@ function ExpensiveCal() {
   const [wordIndex, setWordIndex] = useState(0);
   const words = ["hey", "this", "is", "cool"];
   const word = words[wordIndex];
+
   const computeLetterCount = (word) => {
     let i = 0;
     while (i < 1000000000) i++;

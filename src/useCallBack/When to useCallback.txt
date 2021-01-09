@@ -1,0 +1,2 @@
+https://kentcdodds.com/blog/usememo-and-usecallback
+https://dmitripavlutin.com/dont-overuse-react-usecallback/#comments

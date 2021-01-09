@@ -1,9 +1,22 @@
-import React, { memo } from "react";
+import React, { useRef, useState, useEffect, memo } from "react";
 
-function CountButton({ count, onClick }) {
-  return <button onClick={onClick}>{count}</button>;
-}
+let Count = () => {
+  const [count, setCount] = useState(1);
+  const renderCount = useRef(1);
 
-CountButton = memo(CountButton);
+  useEffect(() => {
+    renderCount.current = renderCount.current + 1;
+  });
 
-export default CountButton;
+  return (
+    <div>
+      <p>Count : {count}</p>
+      <p>Rendered : {renderCount.current}</p>
+      <button onClick={() => setCount((prev) => prev + 1)}>Increment</button>
+    </div>
+  );
+};
+
+Count = memo(Count);
+
+export default Count;
